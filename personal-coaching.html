@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coaching — Stronghold</title>
+<meta name="description" content="Coaching at Stronghold — personal training in Kent, hybrid and online options. Bespoke programming, no templates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">STRONGHOLD<span class="logo-dot">.</span></a>
+    <div class="nav-links">
+        <a href="personal-coaching.html" aria-current="page">Coaching</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="about.html">About</a>
+        <a href="about.html#contact" class="btn btn-ghost nav-cta mobile-cta">Get in touch</a>
+    </div>
+    <a href="about.html#contact" class="btn btn-ghost nav-cta">Get in touch</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero section-tight">
+  <div class="wrap">
+    <div class="eyebrow">Coaching &mdash; Kent</div>
+    <h1 style="max-width:14ch;">Training built for you.</h1>
+    <p class="lede">Every programme is built around your goals, your schedule and your starting point &mdash; not pulled off a shelf. Train in person or hybrid from the studio in Kent, or coach remotely online.</p>
+    <div class="tag-row mt-40">
+      <span class="tag">In person</span>
+      <span class="tag">Hybrid</span>
+      <span class="tag">Online</span>
+      <span class="tag">Partner</span>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Goals</div>
+      <h2>What we can work on.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>Strength</h3>
+        <p>Build a bigger squat, deadlift, press. Programmed around your current numbers, not a generic block.</p>
+      </div>
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>Mobility</h3>
+        <p>Restore range and reduce injury risk, so load goes into the joint correctly, not around it.</p>
+      </div>
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>Weight loss</h3>
+        <p>Training and structure that supports the deficit &mdash; without gutting your performance.</p>
+      </div>
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>Longevity &amp; healthy ageing</h3>
+        <p>Stay strong, mobile and independent for the long run &mdash; training that keeps you capable, not just fit for now.</p>
+      </div>
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>General health &amp; wellbeing</h3>
+        <p>Simple, sustainable training to feel fitter, more energetic and more resilient day to day.</p>
+      </div>
+      <div class="card">
+        <div class="card-rule"></div>
+        <h3>Endurance</h3>
+        <p>Engine work layered around your strength training, not fighting against it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="in-person">
+  <div class="wrap grid grid-2" style="align-items:center;">
+    <div class="img-placeholder" style="min-height:260px;">Image placeholder</div>
+    <div>
+      <div class="eyebrow">In&#8209;Person &amp; Hybrid &mdash; Open</div>
+      <h2 style="margin-bottom:20px;">Train at the studio in Kent, or split it online.</h2>
+      <p class="lede">Currently open. Sessions run at our private, fully equipped studio in Kent, or as a hybrid mix of studio and online support.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="online">
+  <div class="wrap grid grid-2" style="align-items:center;">
+    <div>
+      <div class="eyebrow">Online</div>
+      <h2 style="margin-bottom:20px;">Remote coaching, same standard.</h2>
+      <p class="lede">Same programming, same attention as in-person coaching &mdash; just delivered remotely, wherever you are.</p>
+      <p class="small" style="color:var(--grey); margin-top:14px;">Currently taking names on a waitlist, handled case by case around capacity.</p>
+    </div>
+    <div class="img-placeholder" style="min-height:260px;">Image placeholder</div>
+  </div>
+</section>
+
+<section class="section-tight" id="partner">
+  <div class="wrap grid grid-2" style="align-items:center;">
+    <div class="img-placeholder" style="min-height:260px;">Image placeholder</div>
+    <div>
+      <div class="eyebrow">Partner Training &mdash; In Person</div>
+      <h2 style="margin-bottom:20px;">Train together, two-to-one.</h2>
+      <p class="lede">Two-person PT sessions for couples, friends or family who want to train side by side. Same bespoke programming, split across two people in the same session &mdash; just mention it in your enquiry.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="enquire">
+  <div class="wrap grid grid-2" style="align-items:flex-start;">
+    <div>
+      <div class="eyebrow">Get in touch</div>
+      <h2 style="margin-bottom:20px;">Start with an enquiry.</h2>
+      <p class="lede">Tell me where you're starting from, what you're working towards, and which format suits you. I'll come back to you to arrange a first session or a call.</p>
+    </div>
+    <form class="form-card" data-mailto-to="axel@stronghold.life" data-mailto-subject="Coaching enquiry" onsubmit="return strongholdMailtoSubmit(this)">
+      <div class="field">
+        <label for="pc-name">Name</label>
+        <input id="pc-name" type="text" data-field="Name" required>
+      </div>
+      <div class="field">
+        <label for="pc-email">Email</label>
+        <input id="pc-email" type="email" data-field="Email" required>
+      </div>
+      <div class="field">
+        <label for="pc-goal">Primary goal</label>
+        <input id="pc-goal" type="text" data-field="Primary goal" placeholder="e.g. Strength, mobility, weight loss" required>
+      </div>
+      <div class="field">
+        <label for="pc-format">Preferred format</label>
+        <select id="pc-format" data-field="Preferred format">
+          <option>In person</option>
+          <option>Hybrid</option>
+          <option>Online</option>
+          <option>Partner session</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="pc-message">Anything else</label>
+        <textarea id="pc-message" data-field="Message" placeholder="Schedule, background, injuries &mdash; whatever's useful."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send enquiry</button>
+      <div class="form-status"></div>
+      <p class="form-note">This opens your email client addressed to <a href="mailto:axel@stronghold.life">axel@stronghold.life</a>. Prefer to write directly? Email any time.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">STRONGHOLD<span class="logo-dot">.</span></a>
+        <p class="footer-statement">My goal is for you to reach yours — whatever that looks like. Passionate about helping you get healthier, fitter and stronger.</p>
+      </div>
+      <div>
+        <div class="footer-heading">Pages</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="personal-coaching.html">Coaching</a>
+          <a href="nutrition.html">Nutrition</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <div class="footer-links">
+          <a href="mailto:axel@stronghold.life">axel@stronghold.life</a>
+          <a href="https://instagram.com/axelellisoner" target="_blank" rel="noopener">Instagram — @axelellisoner</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Stronghold. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
