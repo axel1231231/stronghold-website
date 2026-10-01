@@ -158,27 +158,23 @@ p:last-child{ margin-bottom: 0; }
 .logo{
   display: inline-flex;
   align-items: center;
-  gap: 0.2em;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
+  gap: 0.22em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 26px;
   line-height: 1;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   color: var(--pitch);
   margin-right: auto;
 }
 
-.nav .logo{ font-size: 48px; }
+.nav .logo{ font-size: 32px; }
 
 .logo-mark{
-  width: 0.76em;
-  height: 0.76em;
+  width: 0.9em;
+  height: 0.9em;
   border-radius: 22%;
   flex: none;
-}
-
-.logo-dot{
-  color: var(--accent);
-  font-size: 1.3em;
 }
 
 .nav-links{
