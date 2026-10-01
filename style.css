@@ -337,6 +337,9 @@ p:last-child{ margin-bottom: 0; }
   object-fit: cover;
   z-index: 0;
 }
+.hero-media--no-image{
+  background: linear-gradient(135deg, var(--stone) 0%, var(--pitch) 100%);
+}
 .hero-media::before{
   content: '';
   position: absolute; inset: 0;
@@ -386,21 +389,21 @@ p:last-child{ margin-bottom: 0; }
   font-family:'Bebas Neue',sans-serif; font-size: 56px; color: var(--bg); line-height:1;
 }
 
-/* ---------- Image placeholders ---------- */
+/* ---------- Decorative panels (image-free) ---------- */
 
 .img-placeholder{
-  background: var(--sand);
-  border: 1px dashed var(--grey);
+  background: linear-gradient(135deg, var(--stone) 0%, var(--pitch) 100%);
   border-radius: var(--radius-card);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  overflow: hidden;
   min-height: 320px;
-  color: var(--grey);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+}
+.img-placeholder::after{
+  content: '';
+  position: absolute;
+  bottom: 28px; left: 28px;
+  width: 34px; height: 3px;
+  background: var(--accent);
 }
 
 /* ---------- Form ---------- */
