@@ -1,5 +1,5 @@
 // ============================================================
-// STRONGHOLD — shared behaviour
+// STRONGHOLD: shared behaviour
 // Mobile nav toggle + mailto-based form submission (no backend)
 // ============================================================
 
@@ -21,7 +21,7 @@
 // data-mailto-to, data-mailto-subject set on the <form>.
 function strongholdMailtoSubmit(form) {
   var to = form.getAttribute('data-mailto-to') || 'axel@stronghold.life';
-  var subject = form.getAttribute('data-mailto-subject') || 'Enquiry — Stronghold';
+  var subject = form.getAttribute('data-mailto-subject') || 'Enquiry: Stronghold';
   var lines = [];
   var fields = form.querySelectorAll('[data-field]');
   var valid = true;
@@ -56,7 +56,7 @@ function strongholdMailtoSubmit(form) {
 
   var status = form.querySelector('.form-status');
   if (status) {
-    status.textContent = 'Opening your email client — send the message to complete your enquiry.';
+    status.textContent = 'Opening your email client. Send the message to complete your enquiry.';
     status.style.color = '#3A3530';
     status.classList.add('visible');
   }
