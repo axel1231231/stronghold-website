@@ -1,7 +1,7 @@
 /* ============================================================
    STRONGHOLD — shared stylesheet
-   Light scheme. Bebas Neue (display) + Inter (body).
-   Palette matches the Stronghold Coach app and logo mark.
+   Light scheme. Inter throughout (display + body), matching
+   the Stronghold Coach app. Palette matches the app and logo mark.
    ============================================================ */
 
 :root{
@@ -58,11 +58,11 @@ a{ color: inherit; text-decoration: none; }
 
 h1, h2, h3, h4,
 .display{
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
   color: var(--pitch);
-  line-height: 0.96;
-  letter-spacing: 0.005em;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   margin: 0;
   text-transform: uppercase;
 }
@@ -236,7 +236,7 @@ p:last-child{ margin-bottom: 0; }
     transition: transform 0.25s ease;
     overflow-y: auto;
   }
-  .nav-links a{ font-size: 22px; font-family:'Bebas Neue',sans-serif; letter-spacing:0.02em; }
+  .nav-links a{ font-size: 20px; font-family:'Inter',sans-serif; font-weight:800; letter-spacing:-0.02em; }
   .nav.open .nav-links{ transform: translateX(0); }
   .nav-toggle{ display: block; }
   .nav-cta{ display: none; }
@@ -383,9 +383,11 @@ p:last-child{ margin-bottom: 0; }
 .hero-panel::before{
   content: 'S';
   position: absolute;
-  top: -0.28em; right: -0.06em;
-  font-family: 'Bebas Neue', sans-serif;
+  top: -0.2em; right: -0.1em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
   font-size: 340px;
+  letter-spacing: -0.03em;
   color: rgba(245,245,245,0.05);
   line-height: 1;
   pointer-events: none;
@@ -395,7 +397,7 @@ p:last-child{ margin-bottom: 0; }
   color: var(--sand); opacity:0.75; margin-bottom: 10px;
 }
 .hero-panel .panel-stat{
-  font-family:'Bebas Neue',sans-serif; font-size: 56px; color: var(--bg); line-height:1;
+  font-family:'Inter',sans-serif; font-weight:800; letter-spacing:-0.03em; font-size: 56px; color: var(--bg); line-height:1;
 }
 
 /* ---------- Decorative panels (image-free) ---------- */
